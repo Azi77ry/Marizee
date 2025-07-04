@@ -1,7 +1,7 @@
 // Client-side JavaScript for both admin.html and index.html
 
 // Configuration
-const API_BASE_URL = 'https://backenincome-record-backend.onrender.com/' // Update with your Render URL when deployed
+const API_BASE_URL = 'https://backenincome-record-backend.onrender.com/api' // Update with your Render URL when deployed
 const RECORDS_PER_PAGE = 5;
 let currentPage = 1;
 let totalPages = 1;
